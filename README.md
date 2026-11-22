@@ -36,6 +36,8 @@ Every action is checked on the page. If Facebook doesn't show it, it is not coun
 
 If Windows says **"Windows protected your PC"**, click **More info → Run anyway**. Python and its browser are already inside the folder, and nothing is installed on the PC. To move to another PC, copy the whole folder, but **first delete `app\data\browser-profile` from the copy**: it holds your live Facebook and Google sign-ins, which must never travel on a USB stick or a shared drive. Then run **Sign in.bat** on the new PC. The update button works the same way (see Part 3).
 
+**Signing in later:** use the **Sign in to Facebook** and **Sign in to Google** buttons at the top of the app (or **Sign in.bat**). Sign in to YOUR accounts in the window that opens, finish any security check yourself, then CLOSE that window. Some Google Forms only accept people signed in to Google: if a run stops with "Google sign-in required", click **Sign in to Google**, then run the Test again.
+
 ---
 
 ## Part 2: Each time you use it
