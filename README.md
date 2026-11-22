@@ -36,7 +36,7 @@ Every action is checked on the page. If Facebook doesn't show it, it is not coun
 
 If Windows says **"Windows protected your PC"**, click **More info → Run anyway**. Python and its browser are already inside the folder, and nothing is installed on the PC. To move to another PC, copy the whole folder, but **first delete `app\data\browser-profile` from the copy**: it holds your live Facebook and Google sign-ins, which must never travel on a USB stick or a shared drive. Then run **Sign in.bat** on the new PC. The update button works the same way (see Part 3).
 
-**Signing in later:** use the **Sign in to Facebook** and **Sign in to Google** buttons at the top of the app (or **Sign in.bat**). Sign in to YOUR accounts in the window that opens, finish any security check yourself, then CLOSE that window. Some Google Forms only accept people signed in to Google: if a run stops with "Google sign-in required", click **Sign in to Google**, then run the Test again.
+**Signing in later:** click **Sign in** at the top of the app (or **Sign in.bat**). One window opens with Facebook and Google: sign in to YOUR accounts, finish any security check yourself, then CLOSE that window. The app notices it closed and shows ✓ next to each account. New users see a **Get started** checklist (Sign in → Your details → Test run) until all three are done. Some Google Forms only accept people signed in to Google: if a run stops with "Google sign-in required", click **Sign in**, sign in to Google, close the window, then run the Test again.
 
 ---
 
@@ -103,8 +103,14 @@ Close the browser tab, then press **Ctrl + C** in PowerShell to stop the app.
 
 ## Part 3: Updating the app
 
-The dashboard has an **App updates** card. Click **Check for updates**, and when a new version
-is available, click **Update now**. The app restarts by itself, and the dashboard page reloads.
+The app checks for a new version by itself when the dashboard opens. When one is available, a
+green bar appears at the top: click **Update now**. The app restarts by itself, and the dashboard
+page reloads. (You can also click **Check for updates** in the **App updates** card.) No GitHub
+account or sign-in is needed, and it works even while the app's browser window is open.
+
+- **On v1.2.6 or older?** Those versions look for updates in a place other users cannot reach.
+  Download the newest **TheEngager2-portable.zip** once from the download page, unzip it, and copy
+  your old `app\data` folder into the new one. After that, updates are one click.
 
 - **Kept:** your settings (`config.yaml`), your details, `data/`, `evidence/`, `reports/` and
   upload folders are never changed.
