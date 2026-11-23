@@ -38,6 +38,14 @@ If Windows says **"Windows protected your PC"**, click **More info → Run anywa
 
 **Signing in later:** click **Sign in** at the top of the app (or **Sign in.bat**). One window opens with Facebook and Google: sign in to YOUR accounts, finish any security check yourself, then CLOSE that window. The app notices it closed and shows ✓ next to each account. New users see a **Get started** checklist (Sign in → Your details → Test run) until all three are done. Some Google Forms only accept people signed in to Google: if a run stops with "Google sign-in required", click **Sign in**, sign in to Google, close the window, then run the Test again.
 
+**Use ONE copy of the app.** Every copy has its own sign-ins, details and history, so a second copy looks like "the app forgot my sign-in". To avoid that:
+1. Unzip once to a fixed place, e.g. `C:\Users\<you>\TheEngager2`, not inside Downloads (Downloads and temporary folders get cleaned up).
+2. Update only with the green **Update now** bar. Downloading the ZIP again makes a NEW copy, signed out, with empty details.
+3. Start it from the **The Engager 2** shortcut on your Desktop.
+4. Sign in only with the app's **Sign in** button, never in your everyday Chrome: the app has its own browser.
+
+The top of the app shows **This copy: … · version · Facebook: …**. If another copy is found on the PC, or the app runs from Downloads, an orange note says where, and how to move it once. The app never moves or deletes a copy itself.
+
 ---
 
 ## Part 2: Each time you use it
