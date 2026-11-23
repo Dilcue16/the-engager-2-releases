@@ -1,4 +1,4 @@
-**Download:** open [Releases](https://github.com/Dilcue16/the-engager-2-releases/releases/latest) and get **TheEngager2-portable.zip**, then follow *Safe download: step by step* below.
+**Download:** open [Releases](https://github.com/Dilcue16/the-engager-2-releases/releases/latest) and get **TheEngager2-Setup.exe** and double-click it (one-click install; if Windows says 'Windows protected your PC', click More info, then Run anyway) - or **TheEngager2-portable.zip** and follow *Safe download: step by step* below.
 
 # How to Use The Engager 2
 
